@@ -1,11 +1,10 @@
-INSERT INTO tb_category(name) VALUES ('Livros');
-INSERT INTO tb_category(name) VALUES ('Eletrônicos');
-INSERT INTO tb_category(name) VALUES ('Computadores');
-INSERT INTO tb_category(name) VALUES ('Computadores');
-INSERT INTO tb_category(name) VALUES ('Computadores');
-INSERT INTO tb_category(name) VALUES ('Computadores');
-INSERT INTO tb_category(name) VALUES ('Computadores');
-INSERT INTO tb_category(name) VALUES ('Computadores');
-INSERT INTO tb_category(name) VALUES ('Computadores');
-INSERT INTO tb_category(name) VALUES ('Computadores');
-
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES ('Zumbi dos Palmares', '12345678901', 4000.0, '1655-01-01', 2);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES ('Lélia Gonzalez', '98765432100', 3000.0, '1935-02-01', 1);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES ('Machado de Assis', '45678912345', 5000.0, '1839-06-21', 3);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES ('Dandara dos Palmares', '32165498700', 2500.0, '1670-04-10', 0);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES ('Abdias Nascimento', '65498732100', 6000.0, '1914-03-14', 4);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES ('Sueli Carneiro', '78912345600', 3500.0, '1950-06-24', 1);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES ('Luiz Gama', '14725836900', 4500.0, '1830-06-21', 2);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES ('Marielle Franco', '96385274100', 2800.0, '1979-07-27', 0);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES ('Milton Santos', '85296374100', 5200.0, '1926-05-03', 3);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES ('Conceição Evaristo', '74185296300', 3100.0, '1946-11-29', 1);
