@@ -2,6 +2,7 @@ package com.devsuperior.desafio_crud_clientes.dto;
 
 import com.devsuperior.desafio_crud_clientes.entities.Client;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.PastOrPresent;
 import jakarta.validation.constraints.Size;
 
 import java.time.LocalDate;
@@ -18,6 +19,7 @@ public class ClientDto {
 
     private Double income;
 
+    @PastOrPresent(message = "A data de nascimento não pode ser no futuro")
     private LocalDate birthDate;
 
     private Integer children;
